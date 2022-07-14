@@ -1,21 +1,19 @@
-import React from 'react'
-import "./App.css";
-import Footer from "./component/footer/Footer";
-import Form from './component/form/Form';
  
-import Header from "./component/header/Header";
-import Messages from "./component/messages/Messages";
+import './App.css';
+import Footer from './component/footer/Footer';
+import Header from './component/header/Header';
+import Messages from './component/messages/Messages';
+import Form from './component/form/Form';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className="message_form">
+       <Header />
+       <div className="message">
         <Messages />
         <Form />
-      </div>
-
-      <Footer />
+       </div>
+       <Footer />
     </div>
   );
 }
