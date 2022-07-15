@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../card/Card";
+import CardDetail from "../card/Card";
 
 function Messages() {
   return (
     <>
-      <Card />
+      <CardDetail />
     </>
   );
 }

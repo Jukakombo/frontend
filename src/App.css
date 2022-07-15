@@ -1,7 +1,12 @@
- .message{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin:auto
-
- }
+.message {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.message_card {
+  flex: 70%;
+}
+.form {
+  flex: 30%;
+}
